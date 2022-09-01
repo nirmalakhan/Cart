@@ -1,0 +1,28 @@
+#parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#image {
+    margin: 1px;
+    border: 1px solid black;
+
+    float: left;
+    width: 300px;
+}
+
+#data {
+    text-align: right;
+    border: 1px solid black;
+    margin: 1px;
+    width: fit-content;
+    height: fit-content;
+    padding-inline: 10px;
+}
+
+#cart {
+    float: right;
+    position: fixed;
+    margin-left: 40rem;
+}
